@@ -1,0 +1,25 @@
+<!--pages/index/index.wxml-->
+
+<view class="welcome">
+欢迎使用智能化农田管理系统
+</view>
+<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="btn"> 登录程序 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+</view>
+
+
+<button class='set' bindtap="getinfor">查看农田基础信息</button>
+<view>
+<text class="chart">图表显示设置\n当前：</text>
+<text class="chartre">{{ctype}}</text>
+<button class='set' bindtap="collum">看柱状图</button>
+<button class='set' bindtap="line">看折线图</button>
+<button class='set' bindtap="area">看区域图</button>
+<view>查看地图与天气</view>
+<button class='set' bindtap="map">看农田地图</button>
+</view>
+<button class='set' bindtap="baiduweather">查看天气预报</button>

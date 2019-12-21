@@ -1,0 +1,28 @@
+<!--pages/hi/hi.wxml-->
+<!--<button bindtap="check">查看地理位置</button>-->
+<!--<button bindtap="check">摄像头</button>
+-->
+ <view wx:if= "{{log ==1}}">  
+ <text>高级控制选项</text>
+
+<button class='set' bindtap="openmusci_bird">开启吸引鸟类音乐</button>
+<button class='set' bindtap="openmusci_bug">开启驱赶害虫音乐</button>
+<button class='set' bindtap="closemusic">关闭当前音乐</button>
+<button class='set' bindtap="openlight">开启照明</button>
+<button class='set' bindtap="closelight">关闭照明</button>
+
+</view>
+<view wx:if= "{{log ==0}}">
+ <text>\n\n</text>
+
+ <image src="../img/1.jpg" ></image>
+ <text>\n\n请先登录指定的账号</text>
+
+</view>
+<view wx:if= "{{log ==2}}">
+ <text>\n\n</text>
+
+<image src="../img/1.jpg" ></image>
+<text>\n\n当前账号未授权</text>
+
+</view>

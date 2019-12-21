@@ -1,0 +1,16 @@
+<!--pages/about us/about us.wxml-->
+<text class='set'>我们是一群光荣的北邮学子\n
+敬业乐群是我们铭记的坚守\n 
+国脉所系是我们接过的火炬\n
+传邮万里是我们不变的使命\n
+感谢您的使用！
+</text>
+<button bindtap="introduction">我们的介绍视频</button>
+
+
+
+<text>特别鸣谢： \nonenet  百度地图  腾讯云服务 提供的优质服务！！！</text>
+<button class='set1' bindtap="onenet">了解onenet</button>
+
+<button class='set1' bindtap="baidumap">了解百度地图</button>
+<button class='set1' bindtap="txcloud">了解腾讯云服务</button>

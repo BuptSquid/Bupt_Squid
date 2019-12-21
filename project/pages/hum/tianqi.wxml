@@ -1,0 +1,4 @@
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
+<button bindtap="change">看下一个</button>
+<button bindtap="back">返回</button>

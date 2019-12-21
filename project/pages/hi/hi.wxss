@@ -1,0 +1,10 @@
+page{
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576509639577&di=17858b1d87c98614ce3672a54c901551&imgtype=0&src=http%3A%2F%2Fpic1.16pic.com%2F00%2F39%2F28%2F16pic_3928554_b.jpg");
+  background-size: 100% 100%;
+}
+.set{
+  width: 90%;
+  margin-top: 30rpx;
+  background-color: rgb(131, 241, 177);
+  color: rgb(243, 40, 13);
+}

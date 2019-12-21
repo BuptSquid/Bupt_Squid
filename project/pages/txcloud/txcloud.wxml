@@ -1,0 +1,3 @@
+<!--pages/txcloud/txcloud.wxml-->
+<text>pages/txcloud/txcloud.wxml</text>
+<web-view src="https://cloud.tencent.com/"></web-view>

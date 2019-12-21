@@ -1,0 +1,18 @@
+<!--pages/baidutianqi/baidutianqi.wxml-->
+<text>{{ntime}}  </text>
+
+<text>当前城市：</text>
+<text>{{a}}\n</text>
+
+<text>当前气温（百度天气）：</text>
+<text>{{tem}}  {{zs}}\n</text>
+<text>pm2.5  :  {{pm25}}\n</text>
+<text>未来天气预测\n</text>
+<text>明天：{{preview1}}      </text>
+<text>后天：{{preview2}}</text>
+<view>
+<text>建议:\n</text>
+<text>1.{{advice}}\n</text>
+<text>2.{{advice1}}</text>
+
+</view>

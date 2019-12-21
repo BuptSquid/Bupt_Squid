@@ -1,0 +1,5 @@
+
+<canvas class = "canvas" id="chart1"
+canvas-id="tempe"></canvas>
+<button bindtap="change">看上一个</button>
+<button bindtap="back">返回</button>

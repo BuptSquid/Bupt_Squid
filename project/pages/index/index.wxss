@@ -1,0 +1,55 @@
+/* pages/index/index.wxss */
+ 
+page{
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576509639577&di=17858b1d87c98614ce3672a54c901551&imgtype=0&src=http%3A%2F%2Fpic1.16pic.com%2F00%2F39%2F28%2F16pic_3928554_b.jpg");
+  background-size: 100% 100%;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 5rpx;
+  border-radius: 50%;
+}
+.chart{
+  color: black;
+}
+.chartre{
+  color: red;
+}
+.welcome{
+  font-size: 20px;
+  font-family: 楷体;
+  font-weight:bold;
+  margin-bottom: 30rpx;
+  text-align:center;
+  margin-top: 30rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 5rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rgb(15, 1, 1);
+  font-family: 楷体;
+  font-weight:bold;
+  text-align:center;
+}
+
+.set{
+  width: 70%;
+  margin-top: 10rpx;
+  background-color: #d2faf1;
+  border-bottom-color: rgb(35, 170, 248);
+  color: #f1a043;
+  text-align: center;
+  font-style: normal;
+}

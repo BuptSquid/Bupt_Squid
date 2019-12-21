@@ -1,0 +1,13 @@
+<!--pages/imfor1/infor1.wxml-->
+<!--pages/test/test.wxml-->
+<text class='section1'>温度分别是：</text><text class='section2'>{{test}},{{test_}}\n\n\n</text>
+<button bindtap="totem">详细信息</button>
+
+<text class='section1'>光强分别是：</text><text class='section2'>{{test1}},{{test1_}}\n\n\n</text>
+<button bindtap="tolight">详细信息</button>
+
+<text class='section1'>湿度分别是：</text><text class='section2'>{{test2}},{{test2_}}\n\n\n</text>
+<button bindtap="tohum">详细信息</button>
+<text>\n\n</text>
+
+<button bindtap="back">回到首页</button>

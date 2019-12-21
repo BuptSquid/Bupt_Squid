@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/gesture/gesture",
+    "pages/index/index",
+    "pages/hi/hi",
+    "pages/about us/about us",
+    "pages/imfor1/infor1",
+    "pages/baidutianqi/baidutianqi",
+    "pages/introduction/introduction",
+    "pages/baidumap/baidumap",
+    "pages/onenet/onenet",
+    "pages/txcloud/txcloud",
+    "pages/tem/tianqi",
+    "pages/tem1/tianqi",
+    "pages/light/tianqi",
+    "pages/light1/tianqi",
+    "pages/hum/tianqi",
+    "pages/hum1/tianqi"
+                    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#22C3AA",
+    "navigationBarTitleText": "智能化农田管理系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "pages/img/首页.png",
+        "selectedIconPath": "pages/img/首页1.png"
+      },
+      {
+        "pagePath": "pages/hi/hi",
+        "text": "高级",
+        "iconPath": "pages/img/系统菜单.png",
+        "selectedIconPath": "pages/img/系统菜单1.png"
+      },
+      {
+        "pagePath": "pages/about us/about us",
+        "text": "关于我们",
+        "iconPath": "pages/img/信息.png",
+        "selectedIconPath": "pages/img/信息1.png"
+      }
+    ],
+    "debug": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
